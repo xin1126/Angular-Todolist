@@ -1,0 +1,20 @@
+<button
+class="
+  min-w-[100px]
+  p-2
+  rounded-md
+  text-white
+  transition
+  duration-700
+"
+[class]="{
+ 'bg-emerald-400': color === 'emerald',
+ 'honer:bg-emerald-400': color === 'emerald',
+ 'bg-cyan-400': color === 'cyan',
+ 'honer:bg-cyan-400': color === 'cyan',
+ 'bg-rose-400': color === 'rose',
+ 'honer:bg-rose-400': color === 'rose'
+}"
+>
+<ng-content></ng-content>
+</button>
