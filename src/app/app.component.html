@@ -17,13 +17,13 @@
           [color]="'emerald'"
           (click)="selectData('undone')"
         >
-        全部
+        已完成
         </app-button-utils>
         <app-button-utils
           [color]="'emerald'"
           (click)="selectData('completed')"
         >
-        全部
+        未完成
         </app-button-utils>
     </div>
     <app-list-todo [lists]="lists" (deleteItem)="deleteItem($event)" (updateDone)="updateDone()"></app-list-todo>
